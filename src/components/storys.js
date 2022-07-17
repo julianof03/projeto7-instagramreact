@@ -1,4 +1,4 @@
-const identidade = [
+const StoryUsers = [
     {nome: "9gag",
      image: "assets/img/9gag.svg",
      alt: "9gag"  
@@ -31,12 +31,11 @@ const identidade = [
      image: "assets/img/memeriagourmet.svg" ,
      alt: "memeriago"  
     },
- 
 ]
 export default function Storys() {
     return (
 			<ul class="stories">
-			{identidade.map((identifica) => 
+			{StoryUsers.map((identifica) => 
                 <li class="story">
                      <img src={identifica.image} alt={identifica.alt}/>
                     <div class="usuario">
