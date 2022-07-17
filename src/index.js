@@ -1,21 +1,30 @@
 import ReactDOM from 'react-dom';
 import Storys from './components/storys';
 import Post from './components/Post';
+import SideBar from './components/SideBar';
 function App() {
     return (
         <div>
             <TopBar />
-			<Esquerda />
+			      <Corpo />
 		</div>
     );
 }
 function Esquerda(){
     return (
         <div class="esquerda">
-			<Storys />
-            <Post />
+			    <Storys />
+          <Post />
 		</div>
     ); 
+}
+function Corpo(){
+    return(
+        <div class="corpo">
+            <Esquerda />
+            <SideBar />
+        </div>
+    );
 }
 function TopBar(){
     return(
@@ -24,7 +33,7 @@ function TopBar(){
           <div class="logo">
             <ion-icon name="logo-instagram"></ion-icon>
             <div class="separador"></div>
-            <img src="assets/img/logo.png" />
+            <img src="assets/img/logo.png" alt="logo"/>
           </div>
 
           <div class="logo-mobile">
@@ -32,7 +41,7 @@ function TopBar(){
           </div>
 
           <div class="instagram-mobile">
-            <img src="assets/img/logo.png" />
+            <img src="assets/img/logo.png" alt="logo"/>
           </div>
   
           <div class="pesquisa">

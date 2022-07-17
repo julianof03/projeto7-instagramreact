@@ -1,5 +1,4 @@
 const StoryUsers = [
-
      {nome: "meowed",
      image: "assets/img/meowed.svg",
      contentimage:"assets/img/gato-telefone.svg",
