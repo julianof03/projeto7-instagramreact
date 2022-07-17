@@ -28,7 +28,12 @@ body {
 .navbar ion-icon, .navbar img {
   cursor: pointer;
 }
-
+.redHeart{
+  color: rgb(250, 101, 101);
+}
+.hide{
+  display: none;
+}
 .navbar .container {
   width: 100%;
   max-width: 935px;
