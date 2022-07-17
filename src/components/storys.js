@@ -34,14 +34,20 @@ const StoryUsers = [
 ]
 export default function Storys() {
     return (
-			<ul class="stories">
-			{StoryUsers.map((identifica) => 
-                <li class="story">
-                     <img src={identifica.image} alt={identifica.alt}/>
-                    <div class="usuario">
-                    {identifica.nome}
+			<div class="stories">
+                {StoryUsers.map((identifica) => 
+                <div class="story">
+                    <div class="imagem">
+                        <img src={identifica.image} alt={identifica.alt}/>
+                        </div>
+                        <div class="usuario">
+                        {identifica.nome}
+                        </div>
+                    </div>)}
+                    <div class="setinha">
+                        <ion-icon name="chevron-forward-circle"></ion-icon>
                     </div>
-                </li>)}
-			</ul>
+            </div>
+            
     );
 }

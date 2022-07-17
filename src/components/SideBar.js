@@ -59,7 +59,6 @@ function UserProfile(UserInfo){
 export default function SideBar(){
   return(
     <div class="sidebar">
-      <div class="usuario">
         {usuario.map((user) => 
           <UserProfile 
             nome = {user.nome}
@@ -67,7 +66,6 @@ export default function SideBar(){
             alt = {user.alt}
             Username = {user.Username}
           />)}
-      </div>
       <div class="sugestoes">
         <div class="titulo">
           Sugestões para você

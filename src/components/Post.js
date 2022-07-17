@@ -1,29 +1,29 @@
 import react from "react";
 
 const StoryUsers = [
-  {nome: "meowed",
-  image: "assets/img/meowed.svg",
-  contentimage:"assets/img/gato-telefone.svg",
-  alt: "meowed",
-  lastlike: "respondeai",
-  lastlikeimg: "assets/img/respondeai.svg", 
-  likenumber:"101.523"
+{  nome: "meowed",
+   image: "assets/img/meowed.svg",
+   contentimage:"assets/img/gato-telefone.svg",
+   alt: "meowed",
+   lastlike: "respondeai",
+   lastlikeimg: "assets/img/respondeai.svg", 
+   likenumber:"101.523"
  },
-  {nome: "barked",
-  image: "assets/img/barked.svg",
-  contentimage:"assets/img/dog.svg",
-  alt: "barked",
-  lastlike: "respondeai",
-  lastlikeimg: "assets/img/respondeai.svg",
-  likenumber:"101.523"
+ { nome: "barked",
+   image: "assets/img/barked.svg",
+   contentimage:"assets/img/dog.svg",
+   alt: "barked",
+   lastlike: "respondeai",
+   lastlikeimg: "assets/img/respondeai.svg",
+   likenumber:"101.523"
  },
-  {nome: "meowed",
-  image: "assets/img/meowed.svg",
-  contentimage:"assets/img/gato-telefone.svg",
-  alt: "meowed",
-  lastlike: "respondeai",
-  lastlikeimg: "assets/img/respondeai.svg", 
-  likenumber:"101.523"
+ { nome: "meowed",
+   image: "assets/img/meowed.svg",
+   contentimage:"assets/img/gato-telefone.svg",
+   alt: "meowed",
+   lastlike: "respondeai",
+   lastlikeimg: "assets/img/respondeai.svg", 
+   likenumber:"101.523"
   }
 ]
 export default function Post(){
